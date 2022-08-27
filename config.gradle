@@ -1,0 +1,74 @@
+ext {
+    cfgs = [
+//            compileSdkVersion    : 29,
+            compileSdkVersion    : 31,
+//            compileSdkVersion    : 31,
+//            buildToolsVersion    : "29.0.3",
+//            buildToolsVersion    : "30.0.2",
+            buildToolsVersion    : "31.0.0",
+//            buildToolsVersion    : "31.0.0",
+//            minSdkVersion        : 21,
+            minSdkVersion        : 23,
+//            targetSdkVersion     : 29,
+            targetSdkVersion     : 31,
+
+            versionCode          : 10,
+            versionName          : "2.0.0",
+            ucropVersionCode     : 22,
+            ucropVersionName     : "2.2.0-native",
+
+            //open version control
+//            androidSupportVersion: "28.0.0",
+            glide            : "4.11.0",
+            rxjava           : "2.2.5",
+            rxandroid        : "2.0.2",
+
+            //http
+            retrofit         : "2.9.0",
+            okhttpLogging    : "4.9.0",
+
+            //LiveEventBus：Android消息总线，基于LiveData
+            liveEventBus     : "1.8.0",
+            //条件、生日选择器
+            pickerView       : "4.1.9",
+            //PDF
+            itextgPdf        : "5.5.10",
+            //Google支付
+            billingPay       : "4.0.0",
+            //loadlibrary加载框
+            avilibrary       : "2.1.3",
+            //butterknife黄油刀
+            butterknife      : "10.2.3",
+            //数据库
+            realmsql         : "10.0.1",
+            //adapterlepu
+            brvah            :"3.0.4",
+
+            core_ktx          : "1.3.2",
+//            core_ktx          : "1.7.0",
+            activity_ktx      : "1.2.1",
+            fragment_ktx      : "1.3.1",
+            constraintlayout  : "2.1.3",
+            recyclerview      : "1.2.1",
+            viewmodel_ktx     : "2.3.1",
+            livedata_ktx      : "2.3.1",
+            coroutines_ktx    : "1.6.1",
+            material_ver      : "1.6.0",
+            desugar_jdk_libs  : "1.1.5",
+            swipelayout       : "1.2.0@aar",
+            material_dialogs  : "0.9.6.0", //不要升级！
+            swiperefreshlayout : "1.1.0",
+            bartekscPdfViewer : "2.8.2",
+
+            lpBleSdk          : "2.0.2.2-4.5-3",
+
+            //dialog
+            xpopup            :"2.7.6",
+
+//            navigation_fragment_ktx: "2.3.5",
+//            navigation_ui_ktx:      "2.3.5",
+            arch_nav_version :       "1.0.0", //fragment不重复走生命周期
+
+            splashscreen     : "1.0.0-alpha02",
+    ]
+}
